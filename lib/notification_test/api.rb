@@ -45,7 +45,7 @@ module NotificationTest
         @tag_definition = @kb_apis.tag_user_api.create_tag_definition("NotificationPlugin", "Tag for test NotificationTest", @kb_apis.create_context)
 
         print "before tag creation... #{@tag_definition.inspect}"
-        @kb_apis.tag_user_api.add_tag(event.account_id, Killbill::Plugin::Model::ObjectType.new(:ACCOUNT), @tag_definition.id, @kb_apis.create_context)
+        @kb_apis.tag_user_api.add_tag(event.account_id, :ACCOUNT, @tag_definition.id, @kb_apis.create_context)
 
       elsif event.event_type == :ACCOUNT_CHANGE
 

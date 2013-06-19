@@ -16,7 +16,7 @@ build
 .yardoc
 _yardoc
 doc/
-
+.idea/
 .jbundler
 Jarfile.lock
 Gemfile.lock
