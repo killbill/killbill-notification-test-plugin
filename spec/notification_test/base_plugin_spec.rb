@@ -13,7 +13,7 @@ describe NotificationTest::NotificationPlugin do
     event_type = "INVOICE_CREATION"
     object_type = "INVOICE"
     tenant_id = "b86fd6d4-c0bd-4a44-b49a-5ec29c3b3765"
-    @kb_event = Killbill::Plugin::Event.new(event_type, object_type, object_id, account_id, tenant_id)
+    @kb_event = Killbill::Plugin::Model::ExtBusEvent.new(event_type, object_type, object_id, account_id, tenant_id)
   end
 
   it "should start and stop correctly" do

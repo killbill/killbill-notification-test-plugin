@@ -1,5 +1,6 @@
 require 'date'
 
+require 'killbill'
 require 'killbill/notification'
 
 class Killbill::Plugin::Model::ExtBusEvent
