@@ -1,5 +1,6 @@
 require 'bundler'
 
+require 'killbill'
 require 'rspec'
 
 RSpec.configure do |config|
