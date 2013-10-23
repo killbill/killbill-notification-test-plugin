@@ -22,3 +22,4 @@ Jarfile.lock
 Gemfile.lock
 *.swp
 killbill-notification-test
+pom.xml.asc
