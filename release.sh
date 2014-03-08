@@ -31,7 +31,7 @@ rake killbill:package
 ARTIFACT="$PWD/pkg/killbill-notification-test-$VERSION.tar.gz"
 echo "Pushing $ARTIFACT to Maven Central"
 mvn gpg:sign-and-deploy-file \
-    -DgroupId=com.ning.killbill.ruby \
+    -DgroupId=org.kill-bill.ruby \
     -DartifactId=notification-test-plugin \
     -Dversion=$VERSION \
     -Dpackaging=tar.gz \
