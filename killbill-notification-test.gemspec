@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
 
   s.author   = 'Killbill core team'
   s.email    = 'killbilling-users@googlegroups.com'
-  s.homepage = 'http://www.killbilling.org'
+  s.homepage = 'http://killbill.io'
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
@@ -22,9 +22,9 @@ Gem::Specification.new do |s|
 
   s.rdoc_options << '--exclude' << '.'
 
-  s.add_dependency 'killbill', '~> 3.1.5'
+  s.add_dependency 'killbill', '~> 4.0.0'
 
-  s.add_development_dependency 'jbundler', '~> 0.4.1'
+  s.add_development_dependency 'jbundler', '~> 0.4.3'
   s.add_development_dependency 'rake', '>= 10.0.0'
   s.add_development_dependency 'rspec', '~> 2.12.0'
 end

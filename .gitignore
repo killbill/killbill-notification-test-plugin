@@ -1,5 +1,6 @@
 *.gem
 *.rbc
+*.swp
 .bundle
 .config
 coverage
@@ -11,15 +12,22 @@ spec/reports
 test/tmp
 test/version_tmp
 tmp
-build
+
 # YARD artifacts
 .yardoc
 _yardoc
 doc/
-.idea/
+
 .jbundler
-Jarfile.lock
-Gemfile.lock
-*.swp
-killbill-notification-test
+
+.DS_Store
+
+# Testing database
+test.db
+
+target
 pom.xml.asc
+
+.idea/
+
+Gemfile.head.lock
