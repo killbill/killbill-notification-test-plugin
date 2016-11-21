@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
 
   s.license = 'Apache License (2.0)'
 
-  s.author   = 'Killbill core team'
+  s.author   = 'Kill Bill core team'
   s.email    = 'killbilling-users@googlegroups.com'
   s.homepage = 'http://killbill.io'
 
@@ -22,9 +22,9 @@ Gem::Specification.new do |s|
 
   s.rdoc_options << '--exclude' << '.'
 
-  s.add_dependency 'killbill', '~> 4.0.0'
+  s.add_dependency 'killbill', '~> 8.0'
 
-  s.add_development_dependency 'jbundler', '~> 0.4.3'
+  s.add_development_dependency 'jbundler', '~> 0.9.2'
   s.add_development_dependency 'rake', '>= 10.0.0'
   s.add_development_dependency 'rspec', '~> 2.12.0'
 end
