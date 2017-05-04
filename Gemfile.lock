@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    killbill-notification-test (3.0.0)
+    killbill-notification-test (3.0.1)
       killbill (~> 8.0)
 
 GEM
